@@ -1,16 +1,21 @@
 ---
-title: "UAS - Regression Model | R Shiny"
+title: "UAS - Regression Model "
 output: html_document
----
-
 date: "2025-07-08"
 ---
 
 ## Deskripsi Aplikasi Prediksi Variabel Y Berdasarkan Variabel X
 
-Aplikasi ini dirancang untuk membantu pengguna melakukan analisis regresi sederhana atau berganda guna memprediksi variabel **Y** berdasarkan satu atau lebih variabel **X**. Aplikasi dibangun menggunakan bahasa R dan kerangka kerja **Shiny**, sehingga mendukung antarmuka interaktif yang mudah digunakan. Terdapat lima bagian utama dalam aplikasi yang menggambarkan alur analisis secara sistematis, mulai dari eksplorasi data hingga prediksi.
+Aplikasi ini dirancang untuk membantu pengguna melakukan analisis regresi sederhana atau berganda guna memprediksi variabel **Y** berdasarkan satu atau lebih variabel **X**. Aplikasi dibangun menggunakan bahasa R dan kerangka kerja **Shiny**, sehingga mendukung antarmuka interaktif yang mudah digunakan.
 
 ---
+
+### 1. Data Preview
+
+Bagian ini menyajikan pratinjau awal data. Pengguna dapat melihat beberapa baris pertama dari dataset yang diunggah, termasuk nama kolom dan tipe data. Hal ini penting untuk memverifikasi bahwa data sudah dimuat dengan benar dan dalam format yang sesuai untuk analisis lanjutan.
+
+
+
 
 ### 1. Data Preview
 
@@ -21,6 +26,7 @@ Bagian ini menyajikan pratinjau awal data. Pengguna dapat melihat beberapa baris
 ### 2. Correlation Matrix
 
 Pada bagian ini, aplikasi menghitung dan menampilkan matriks korelasi antar variabel, terutama untuk mengidentifikasi kekuatan hubungan antara variabel **X dan Y**. Korelasi ditampilkan dalam bentuk tabel dan heatmap, sehingga memudahkan pengguna dalam menginterpretasi hubungan linier antar variabel.
+
 
 ---
 
